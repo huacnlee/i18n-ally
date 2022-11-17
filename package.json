@@ -17,7 +17,7 @@
   },
   "main": "./dist/extension",
   "scripts": {
-    "release": "nr release:patch",
+    "release": "nr release:patch && yarn build && vsce publish",
     "release:minor": "standard-version --release-as minor && git push --follow-tags",
     "release:patch": "standard-version --release-as patch && git push --follow-tags",
     "gh:release": "conventional-github-releaser -p angular",
