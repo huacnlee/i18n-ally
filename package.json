@@ -1,7 +1,7 @@
 {
   "publisher": "huacnlee",
   "name": "i18n-ally-opencc",
-  "version": "2.8.2",
+  "version": "2.8.3",
   "displayName": "i18n Ally (Fork)",
   "description": "🌍 A fork version of i18n-ally for add translate with OpenCC.",
   "keywords": [
